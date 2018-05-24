@@ -1,7 +1,7 @@
 # Build Notes
 
 ## Dependencies: 
-cocos2d-x v14, JDK/SDK1.6+,Keytool Android command-line tools, NDK r13b, Apache Ant and python 2.7.13
+Cocos2d-x v14, JDK/SDK1.6+, Keytool, Android command-line tools, NDK r13b, Eclipse Android Development Tools,  Apache Ant and Python 2.7.13
 
 ## Instructions:
 
