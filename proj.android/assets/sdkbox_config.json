@@ -1,0 +1,92 @@
+{
+    "android": {
+        "GoogleAnalytics": {
+            "trackingCode": "UA-62417901-1"
+        }, 
+        "FlurryAnalytics": {
+            "Origin": [
+                {
+                    "OriginName": "sdkbox", 
+                    "OriginParams": {
+                        "Key3": "Val3", 
+                        "Key2": "Val2", 
+                        "Key1": "Val1"
+                    }, 
+                    "OriginVersion": "v0.1"
+                }, 
+                {
+                    "OriginName": "sdkbox", 
+                    "OriginVersion": "v0.1"
+                }
+            ], 
+            "APIKey": "NPGG5X29SSWM4GXK6HFN", 
+            "DefLocationLat": 104.06, 
+            "Level": 2, 
+            "AppVersion": "V0.1", 
+            "Pulse": true, 
+            "LocationReport": true, 
+            "DefLocationLon": 30.67, 
+            "LogEvent": true, 
+            "SessionTimeout": 10, 
+            "CrashReport": true, 
+            "Debug": false
+        }, 
+        "Facebook": {
+            "debug": false
+        }, 
+        "iap": {
+            "items": {
+                "remove_ads": {
+                    "type": "non_consumable", 
+                    "id": "com.cocos2dx.non1"
+                }, 
+                "double_coin": {
+                    "type": "non_consumable", 
+                    "id": "com.cocos2dx.non2"
+                }, 
+                "coin_package": {
+                    "id": "com.cocos2dx.plugintest2"
+                }, 
+                "coin_package2": {
+                    "id": "com.cocos2dx.plugintest3"
+                }
+            }, 
+            "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq7eIGu7dRcBRBSC05cYvxjBMd7cqq9w6++1er+cqO2tyWPtWB4vuTkliq4k/Fkylx5UMfptdOYOW8ENgQyVucs/NyuOAGmve4j5JFhLPcLa6LjO2HUSY6zk04DRR9Zw7YPET4WAezZTz8jYMGhPG08HYltVj8cmSpSFWd1nI0pGOJoLQIMkIkXplgnPQRbMpuOu70vnQQBS1RFcoFT7OjaV8U0cfJzMoS1TMkGqaJKks2T+qOBNTtkXzge92EnvYIkhpCfN98dj6aQmETNp5yj5Fa+jcbAVF8dy5xymJwioL89XQKfKkGR+P6ESMoBEPfIZYIlMU8EUwmC+UKGLujQIDAQAB"
+        }
+    }, 
+    "ios": {
+        "GoogleAnalytics": {
+            "track_init_screen": false, 
+            "trackingCode": "UA-62417901-1"
+        }, 
+        "FlurryAnalytics": {
+            "APIKey": "DYWCHGR5K8M5FQNXZ49Y", 
+            "Level": 2, 
+            "AppVersion": "V0.1", 
+            "SessionTimeout": 10, 
+            "CrashReport": true, 
+            "Debug": false
+        }, 
+        "Facebook": {
+            "debug": true
+        }, 
+        "iap": {
+            "items": {
+                "remove_ads": {
+                    "type": "non_consumable", 
+                    "id": "com.cocos2dx.non1"
+                }, 
+                "double_coin": {
+                    "type": "non_consumable", 
+                    "id": "com.cocos2dx.non2"
+                }, 
+                "coin_package": {
+                    "id": "com.cocos2dx.plugintest2"
+                }, 
+                "coin_package2": {
+                    "id": "com.cocos2dx.plugintest3"
+                }
+            }
+        }
+    }
+}

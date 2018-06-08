@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">AttackOfOZonesv2</string>
+    <string name="google_app_id">475274900053</string>
+    <string name="service_id">nearby_service_id</string>
+</resources>
